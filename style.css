@@ -1,20 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #1d1d1d;
+    color: #fff;
 }
 
 header {
-    background-color: #0074D9;
-    color: #fff;
+    background-color: #333;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0;
 }
 
 header h1 {
     font-size: 2.5em;
     margin: 0;
+    color: #fff;
 }
 
 nav {
@@ -28,6 +29,10 @@ nav a {
     font-size: 1.2em;
 }
 
+nav a:hover {
+    color: #0074D9;
+}
+
 .projects {
     max-width: 800px;
     margin: 0 auto;
@@ -35,8 +40,8 @@ nav a {
 }
 
 .project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #333;
+    border: 1px solid #555;
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
@@ -45,6 +50,11 @@ nav a {
 .project-card h2 {
     font-size: 1.5em;
     margin: 0;
+    color: #fff;
+}
+
+.project-card p {
+    color: #ddd;
 }
 
 .project-card a {
@@ -52,4 +62,5 @@ nav a {
     margin-top: 10px;
     color: #0074D9;
     text-decoration: none;
+    font-weight: bold;
 }
