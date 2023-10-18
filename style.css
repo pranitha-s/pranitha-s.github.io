@@ -1,19 +1,20 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1d1d1d;
+    background-color: #1b1b1b;
     color: #fff;
 }
 
 header {
-    background-color: #333;
+    background-color: #000;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    color: #fff;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
     color: #fff;
 }
@@ -23,28 +24,33 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #0074D9;
     text-decoration: none;
     margin: 0 10px;
     font-size: 1.2em;
 }
 
 nav a:hover {
-    color: #0074D9;
+    text-decoration: underline;
 }
 
 .projects {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card {
     background-color: #333;
     border: 1px solid #555;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
-    margin: 20px 0;
+    width: 45%;
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .project-card h2 {
@@ -63,4 +69,8 @@ nav a:hover {
     color: #0074D9;
     text-decoration: none;
     font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
 }
