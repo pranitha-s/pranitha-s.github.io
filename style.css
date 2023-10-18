@@ -1,33 +1,32 @@
-/* Reset some default browser styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
-/* Set up background and general styles */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2e2e2e;
-    color: #f0f0f0;
+    background-color: #161b22;
+    color: #c9d1d9;
 }
 
-/* Header styles */
+
 header {
-    background-color: #36454f;
+    background-color: #0d1117;
     text-align: center;
     padding: 2em 0;
 }
 
 .header-content h1 {
     font-family: 'Arial', sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
-    color: #fff;
+    color: #c9d1d9;
 }
 
 .header-content p.headline {
     font-size: 1.5em;
-    color: #ffc857;
+    color: #8b949e;
 }
 
 nav {
@@ -35,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: #3498db;
+    color: #58a6ff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2em;
@@ -45,9 +44,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* About section styles */
+
 .about {
-    background-color: #fff;
+    background-color: #0d1117;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -56,62 +55,26 @@ nav a:hover {
 
 .about-content h2 {
     font-size: 2em;
-    color: #333;
+    color: #c9d1d9;
     padding: 20px 0;
 }
 
 .about-content p {
     font-size: 1.2em;
-    color: #555;
+    color: #8b949e;
     padding: 0 20px;
 }
 
 /* Section title styles */
 .section-title {
     font-size: 2.5em;
-    color: #f0f0f0;
+    color: #c9d1d9;
     text-align: center;
     margin: 30px 0;
 }
 
-/* Projects section styles */
+
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 48%;
-    margin: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.project-card h2 {
-    font-size: 1.8em;
-    color: #333;
-}
-
-.project-card p {
-    font-size: 1.2em;
-    color: #555;
-    margin-top: 10px;
-}
-
-.project-card a {
-    display: block;
-    margin-top: 10px;
-    color: #3498db;
-    text-decoration: none;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
+   
