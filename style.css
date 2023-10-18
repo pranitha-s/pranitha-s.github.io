@@ -1,23 +1,29 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1d1d1d;
-    color: #fff;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
 header {
-    background-color: #222;
+    background-color: #1e3f51;
     text-align: center;
     padding: 1.5em 0;
     color: #fff;
 }
 
 header h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3em;
     margin: 0;
-    color: #9b59b6;
+    color: #f7f7f7;
+}
+
+.header p.headline {
+    font-size: 1.2em;
+    margin: 0;
+    color: #f7f7f7;
 }
 
 nav {
@@ -25,14 +31,41 @@ nav {
 }
 
 nav a {
-    color: #9b59b6;
+    color: #3498db;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-size: 1.2em;
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .projects {
@@ -44,40 +77,29 @@ nav a:hover {
     justify-content: space-between;
 }
 
-.project-row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .project-card {
-    background-color: #222;
-    border: 1px solid #444;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     width: 48%;
     margin: 10px 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .project-card h2 {
-    font-size: 1.5em;
-    margin: 0;
-    color: #9b59b6;
+    font-size: 1.8em;
+    color: #333;
 }
 
 .project-card p {
-    color: #ddd;
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
 }
 
 .project-card a {
     display: block;
     margin-top: 10px;
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
+    color: #3498
